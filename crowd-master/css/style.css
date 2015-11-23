@@ -90,3 +90,34 @@ table {
     font-weight: 600;
     color: white;
 }
+
+
+
+/* FOOTER of template */
+
+.footer {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.footer-partners {                                 /* Partner logos-for-FOOTER */
+    width: 1010px;
+    margin: 0 auto;
+    padding-top: 52px;
+    padding-bottom: 41px;
+}
+
+.footer-copyright {                                /* Copyright-for-FOOTER */
+    border-top: 1px solid #ededed;
+}
+
+
+.footer-copyright .copyright-content {
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #848484;
+}
