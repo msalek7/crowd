@@ -48,7 +48,7 @@ table {
 }
 
 .header-logo {                             /* Logo -for-HEADER */
-    margin: 20px 120px 28px 135px;
+    margin: 20px 120px 28px 80px;
 }
 
 .header-navbar .navbar-list {              /* Navigation bar-for-HEADER */
@@ -91,6 +91,62 @@ table {
     color: white;
 }
 
+
+/* BANNER of template */
+
+.banner {
+    width: 1300px;
+    height: 570px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: url("../image/banner-background.png") no-repeat;
+}
+
+.banner-content {                                /* Content-for-BANNER */
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 170px;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    word-spacing: 10px;
+
+}
+
+.banner-content span {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner-button {                                /* Button-for-BANNER */
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #99c50a;
+    padding: 25px 40px;
+}
+
+.banner-button:active {
+    transform: translate(1px,2px);
+    border: none;
+}
+
+.banner-button .button-link {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
 
 
 /* FOOTER of template */
