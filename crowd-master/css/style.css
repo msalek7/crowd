@@ -149,6 +149,50 @@ table {
 }
 
 
+/* MAIN CONTENT of template */
+
+.main-content {                                     /* ARTICLE section--for-MAIN CONTENT */
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.intro-content .intro-logo {                       /* INTRODUCTION LOGO-for-MAIN CONTENT */
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.intro-content .intro-title {                     /* INTRODUCTION TITLE-for-MAIN CONTENT */
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #515151;
+    width: 570px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    margin: 0 auto;
+}
+
+.intro-content .intro-text {                      /* INTRODUCTION TEXT-for-MAIN CONTENT */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #838383;
+    line-height: 30px;
+    text-align: center;
+    width: 925px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
 /* FOOTER of template */
 
 .footer {
