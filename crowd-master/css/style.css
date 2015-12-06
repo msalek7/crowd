@@ -156,13 +156,15 @@ table {
     margin: 0 auto;
 }
 
-.intro-content .intro-logo {                       /* INTRODUCTION LOGO-for-MAIN CONTENT */
+/* INTRODUCTION of MAIN CONTENT */
+
+.main-intro .intro-logo {                       /* INTRODUCTION LOGO-for-MAIN CONTENT */
     display: block;
     margin: 0 auto;
     padding-top: 100px;
 }
 
-.intro-content .intro-title {                     /* INTRODUCTION TITLE-for-MAIN CONTENT */
+.main-intro .intro-title {                     /* INTRODUCTION TITLE-for-MAIN CONTENT */
     font-family: "Open Sans", sans-serif;
     font-size: 32px;
     font-weight: 600;
@@ -175,7 +177,7 @@ table {
     margin: 0 auto;
 }
 
-.intro-content .intro-text {                      /* INTRODUCTION TEXT-for-MAIN CONTENT */
+.main-intro .intro-text {                      /* INTRODUCTION TEXT-for-MAIN CONTENT */
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -187,10 +189,92 @@ table {
     margin: 0 auto;
 }
 
+/* TABS of MAIN CONTENT */
+
+.main-tabs .tabs-buttons {
+    width: 980px;
+    margin: 0 auto;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.tabs-buttons .buttons {                       /* Buttons-for-TABS */
+    text-decoration: none;
+    margin-right: 110px;
+}
+
+.tabs-buttons .buttons:active {
+    border-bottom: 1px solid #add136;
+    padding-bottom: 55px;
+}
+
+.tabs-buttons .buttons:visited {
+    border-bottom: 1px solid #add136;
+    padding-bottom: 55px;
+}
 
 
+.buttons .buttons-link {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: #656565;
+}
 
+.buttons .buttons-number {                    /* Button numbers-for-TABS */
+    display: inline-block;
+    width: 30px;
+    background-color: #5f5f5f;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
 
+.buttons .buttons-number:hover {
+    background-color: #add136;
+}
+
+.main-tabs .tabs-content {                   /* Content-for-TABS */
+    width: 980px;
+    margin: 0 auto;
+}
+
+/*
+.tabs-content .tabs-content-section {
+   width: 2940px;
+   overflow: hidden;
+}
+*/
+
+.tabs-content-section .tab-logo {
+    display: inline-block;
+    margin: 87px 0 0 90px;
+}
+
+.tabs-content-section .section-text {
+    width: 652px;
+    float: right;
+    margin-top: 65px;
+}
+
+.section-text .text-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    color: #add136;
+}
+
+.section-text .text-paragraph {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 23px;
+    color: #838383;
+    margin-top: 38px;
+}
 
 
 /* FOOTER of template */
