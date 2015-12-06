@@ -250,7 +250,7 @@ table {
 }
 */
 
-.tabs-content-section .tab-logo {
+.tabs-content-section .tab-logo {            /* Logo-for-TABS */
     display: inline-block;
     margin: 87px 0 0 90px;
 }
@@ -261,14 +261,14 @@ table {
     margin-top: 65px;
 }
 
-.section-text .text-header {
+.section-text .text-header {                 /* Header-for-TABS */
     font-family: "Open Sans", sans-serif;
     font-size: 25px;
     font-weight: normal;
     color: #add136;
 }
 
-.section-text .text-paragraph {
+.section-text .text-paragraph {              /* Paragraph-for-TABS */
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     text-align: justify;
