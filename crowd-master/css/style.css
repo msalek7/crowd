@@ -277,6 +277,106 @@ table {
     margin-top: 38px;
 }
 
+/* FIND SECTION of MAIN CONTENT */
+
+.main-find-section {
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 112px;
+}
+
+.main-find-section div {
+    width: 50%;
+    display: inline-block;
+}
+
+.find-section-properties {                                            /* Properties section-for-FIND section */
+    background-color: #e2f8ff;
+}
+
+.find-section-properties .find-properties-logo {                      /* Properties section logo-for-FIND section */
+    padding: 85px 45px 109px 140px;
+}
+
+.find-section-properties .find-properties-content {                   /* Properties section text-for-FIND section */
+    width: 260px;
+    float: right;
+    padding: 48px 68px 0 0;
+}
+
+.find-content-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    color: #515151;
+    margin-bottom: 40px;
+}
+
+.find-content-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #515151;
+    text-align: justify;
+}
+
+.find-properties-content .properties-button {                        /* Properties section Button-for-FIND section */
+    width: 200px;
+    margin-top: 32px;
+    padding: 20px 25px;
+    background-color: #26a6d1;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.properties-button:active {
+    transform: translate(1px,2px);
+    border: none;
+}
+
+.main-find-section .find-section-buyers {                              /* Buyers section-for-FIND section */
+    background-color: #f5f9eb;
+    float: right;
+}
+
+.find-section-buyers .find-buyers-logo {                              /* Buyers section logo-for-FIND section */
+    padding: 96px 72px 117px 76px;
+    display: inline-block;
+}
+
+.find-section-buyers .find-buyers-content {                           /* Buyers section text-for-FIND section */
+    width: 260px;
+    float: right;
+    padding: 45px 140px 30px 0;
+
+}
+
+.find-buyers-content .buyers-button {                                  /* Buyers section Button-for-FIND section */
+    width: 200px;
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #add136;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buyers-button:active {
+    transform: translate(1px,2px);
+    border: none;
+}
+
+.properties-button-link , .buyers-button-link {                       /* Properties/Buyers section Links-for-FIND section */
+    text-decoration: none;
+    color: white;
+}
+
+
 
 /* FOOTER of template */
 
