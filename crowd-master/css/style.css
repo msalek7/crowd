@@ -238,6 +238,7 @@ table {
     background-color: #add136;
 }
 
+
 .main-tabs .tabs-content {                   /* Content-for-TABS */
     width: 980px;
     margin: 0 auto;
@@ -376,6 +377,69 @@ table {
     color: white;
 }
 
+
+
+/* PROJECT SECTION of MAIN CONTENT */
+
+.main-projects-section {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.projects-section-membership {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.projects-section-membership .projects-membership-guide {               /* Membership guide section-for-PROJECT SECTION */
+    float: left;
+    margin-bottom: 65px;
+}
+
+.projects-section-membership .projects-membership-guide {
+    width: 705px;
+}
+
+.projects-membership-guide .projects-section-membership-title {        /* Header-for-PROJECT SECTION */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #515151;
+    margin-top: 75px;
+}
+
+.projects-membership-guide .projects-section-membership-text {       /* Membership guide section text-for-PROJECT SECTION */
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 23px;
+    color: #838383;
+    margin-top: 35px;
+}
+
+.projects-section-membership .projects-membership-button {           /* Membership button-for-PROJECT SECTION */
+    float: right;
+}
+
+.projects-membership-button .membership-button {
+    margin-top: 110px;
+    padding: 20px 23px;
+    background-color: white;
+    border: 1px solid #b6b6b6;
+    border-radius: 10px;
+}
+
+.membership-button .membership-button-link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #838383;
+}
+
+.membership-button:active {
+    transform: translate(1px,2px);
+}
 
 
 /* FOOTER of template */
