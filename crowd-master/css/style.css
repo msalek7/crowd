@@ -238,6 +238,7 @@ table {
     background-color: #add136;
 }
 
+
 .main-tabs .tabs-content {                   /* Content-for-TABS */
     width: 980px;
     margin: 0 auto;
@@ -375,6 +376,239 @@ table {
     text-decoration: none;
     color: white;
 }
+
+
+
+/* PROJECT SECTION of MAIN CONTENT */
+
+
+/* MEMBERSHIP SECTION of PROJECT SECTION */
+
+.main-projects-section {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.projects-section-membership {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.projects-section-membership .projects-membership-guide {               /* Membership guide section-for-PROJECT SECTION */
+    float: left;
+    margin-bottom: 65px;
+}
+
+.projects-section-membership .projects-membership-guide {
+    width: 705px;
+}
+
+.projects-membership-guide .projects-section-membership-title {        /* Header-for-PROJECT SECTION */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #515151;
+    margin-top: 75px;
+}
+
+.projects-membership-guide .projects-section-membership-text {       /* Membership guide section text-for-PROJECT SECTION */
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 23px;
+    color: #838383;
+    margin-top: 35px;
+}
+
+.projects-section-membership .projects-membership-button {           /* Membership button-for-PROJECT SECTION */
+    float: right;
+}
+
+.projects-membership-button .membership-button {
+    margin-top: 110px;
+    padding: 20px 23px;
+    background-color: white;
+    border: 1px solid #b6b6b6;
+    border-radius: 10px;
+}
+
+.membership-button .membership-button-link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #838383;
+}
+
+.membership-button:active {
+    transform: translate(1px,2px);
+}
+
+
+/* PROJECTS DETAILS of PROJECTS SECTION */
+
+.projects-section-details {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.projects-details-block {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.projects-details-block div:last-of-type {
+    margin-right: 0;
+}
+
+.projects-details-block .projects-details-division {           /* Block for each of the 3 project-for-PROJECTS DETAILS */
+    display: inline-block;
+    width: 300px;
+    margin-right: 42px;
+    border: 1px solid #b6b6b6;
+    border-radius: 10px;
+}
+
+
+.projects-details-division .projects-division-banner-1 {               /* 1st block image-for-PROJECTS DETAILS */
+    background: url('../image/projects-banner-1.png') no-repeat;
+    height: 229px;
+}
+
+.projects-details-division .projects-division-banner-2 {              /* 2nd block image-for-PROJECTS DETAILS */
+    background: url('../image/projects-banner-2.png') no-repeat;
+    height: 229px;
+}
+
+.projects-details-division .projects-division-banner-3 {             /* 3rd block image-for-PROJECTS DETAILS */
+    background: url('../image/projects-banner-3.png')no-repeat;
+    height: 229px;
+}
+
+
+.division-new-banner-label {                                    /* COME BACK!!!! AND COMPLETE LABELING OF BLOCK BANNER!! */
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #add136;
+}
+
+.new-label-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.projects-division-banner-1 div {
+
+}
+
+.division-from-banner-label {
+    background-color: #26a6d1;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    float: right;
+    margin: 133px 15px 22px 145px;
+    padding: 12px 10px;
+    border-radius: 5px;
+}
+
+span.from-label {
+    font-weight: bold;
+}
+
+
+
+.projects-division-text {
+    color: #f8f8f8;
+}
+
+.projects-division-text .division-text-title {              /* Header of each block-for-PROJECTS DETAILS*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #484848;
+    padding-top: 28px;
+    padding-left: 15px;
+
+}
+
+.projects-division-text .division-text-content {           /* Paragraph of each block-for-PROJECTS DETAILS*/
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #515151;
+    padding: 20px 15px 22px 15px;
+}
+
+
+.division-text-progressBar .progressBar-bar {            /* Progress Bar of each block-for-PROJECTS DETAILS */
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+
+.division-text-progressBar .progressBar-amount {        /* Percentage done */
+    color: #838383;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.division-text-progressBar .progressBar-days {         /* Days left */
+    color: #838383;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 105px;
+}
+
+.division-text-seeDetails {                          /* See Details block-for-PROJECT DETAILS */
+    display: block;
+    width: 254px;
+    margin-top: 18px;
+    padding-top: 27px;
+    border-top: 1px solid #d6d6d6;
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+.division-text-seeDetails-content {
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #868686;
+    padding-left: 87px;
+
+}
+
+.division-text-seeDetails-button {             /* Button of See Details block-for-PROJECT DETAILS */
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #b5d54c;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.division-text-seeDetails-button:active {
+    transform: translate(1px,2px);
+}
+
+.seeDetails-button-link {                    /* Link of the button of See details */
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
+    color: transparent;
+    text-decoration: none;
+}
+
+
 
 
 
