@@ -495,10 +495,6 @@ table {
 }
 
 .new-label-text {
-<<<<<<< HEAD
-=======
-    position: absolute;
->>>>>>> 732d31083770c69f32e1550e45783454e9fbcbd0
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -507,7 +503,6 @@ table {
 
 }
 
-<<<<<<< HEAD
 .division-from-banner-label {
     background-color: #26a6d1;
     color: white;
@@ -525,13 +520,6 @@ span.from-label {
 
 
 
-=======
-.division-from-banner-label {                                 /* COME BACK!!!! AND COMPLETE LABELING OF BLOCK BANNER!! */
-
-}
-
-
->>>>>>> 732d31083770c69f32e1550e45783454e9fbcbd0
 .projects-division-text {
     color: #f8f8f8;
 }
