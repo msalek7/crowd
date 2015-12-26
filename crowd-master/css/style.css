@@ -486,24 +486,28 @@ table {
 }
 
 
-.division-new-banner-label {                                    /* COME BACK!!!! AND COMPLETE LABELING OF BLOCK BANNER!! */
+.division-new-banner-label {                                    /* "NEW" label per each block-for-PROJECTS DETAILS */
+    position: absolute;
     width: 0;
     height: 0;
-    border-left: 40px solid transparent;
-    border-right: 40px solid transparent;
-    border-bottom: 40px solid #add136;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #add136;
+    transform: rotate(-45deg);
+    margin-left: -40px;
+    margin-top: -10px;
 }
 
 .new-label-text {
+    position: absolute;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    margin-top: 30px;
+    margin-left: -20px;
 }
 
-.projects-division-banner-1 div {
 
-}
-
-.division-from-banner-label {
+.division-from-banner-label {                                  /* "FROM" label per each block-for-PROJECTS DETAILS */
     background-color: #26a6d1;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -514,15 +518,10 @@ table {
     border-radius: 5px;
 }
 
-span.from-label {
-    font-weight: bold;
+.division-from-banner-label span.from-label {
+    font-weight: 700;
 }
 
-
-
-.projects-division-text {
-    color: #f8f8f8;
-}
 
 .projects-division-text .division-text-title {              /* Header of each block-for-PROJECTS DETAILS*/
     font-family: "Open Sans", sans-serif;
