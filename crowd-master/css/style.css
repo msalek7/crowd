@@ -607,6 +607,40 @@ table {
     text-decoration: none;
 }
 
+/* FEEDBACK of MAIN CONTENT */
+
+.main-feedback {
+    background: url('../image/feedback-background.png') no-repeat;
+    width: 1300px;
+    height: 670px;
+}
+
+.feedback-community-header {
+    font-family: "Open Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #9ec02d;
+    word-spacing: 10px;
+    text-align: center;
+    width: 880px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+
+.feedback-community-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #949494;
+    word-spacing: 7px;
+    text-align: center;
+    line-height: 23px;
+    width: 880px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+
+
+
 
 
 
