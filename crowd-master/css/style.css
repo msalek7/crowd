@@ -682,6 +682,10 @@ table {
     margin-left: 140px;
 }
 
+.main-feedback-comment div:first-of-type .comment-author {
+    margin-left: 213px;
+}
+
 .comment-author .author-name {
     display: block;
     font-family: 'Montserrat', sans-serif;
