@@ -640,8 +640,67 @@ table {
 }
 
 
+.feedback-comment-block {
+    box-sizing: border-box;
+    width: 48%;
+    display: inline-block;
+}
 
+.comment-tooltip {                                                        /* Tooltip-for-FEEDBACK */
+    background-color: white;
+    border-radius: 10px;
+    width: 396px;
+    margin: 90px 80px 0 100px;
+    position: relative;
+}
 
+.comment-tooltip-header {                                                 /* Tooltip title-for-FEEDBACK */
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #9ec02d;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.comment-tooltip .comment-tooltip-text {                                   /* Tooltip text-for-FEEDBACK */
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #838383;
+    text-align: justify;
+    width: 325px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.comment-tooltip .comment-tooltip-triangle {                               /* Tooltip triangular section-for-FEEDBACK */
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid white;
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -4px;
+
+}
+
+.comment-author {                                                         /* Tooltip-for-FEEDBACK */
+    margin-top: 34px;
+    margin-left: 140px;
+}
+
+.comment-author .author-name {                                            /* Tooltip author-for-FEEDBACK */
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #515151;
+    padding-left: 76px;
+    margin-top: -43px;
+}
 
 
 
