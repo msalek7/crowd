@@ -213,7 +213,6 @@ table {
     padding-bottom: 55px;
 }
 
-
 .buttons .buttons-link {
     display: inline-block;
     font-family: "Open Sans", sans-serif;
@@ -238,18 +237,10 @@ table {
     background-color: #add136;
 }
 
-
 .main-tabs .tabs-content {                   /* Content-for-TABS */
     width: 980px;
     margin: 0 auto;
 }
-
-/*
-.tabs-content .tabs-content-section {
-   width: 2940px;
-   overflow: hidden;
-}
-*/
 
 .tabs-content-section .tab-logo {            /* Logo-for-TABS */
     display: inline-block;
@@ -378,7 +369,6 @@ table {
 }
 
 
-
 /* PROJECT SECTION of MAIN CONTENT */
 
 
@@ -485,7 +475,6 @@ table {
     height: 229px;
 }
 
-
 .division-new-banner-label {                                    /* "NEW" label per each block-for-PROJECTS DETAILS */
     position: absolute;
     width: 0;
@@ -505,7 +494,6 @@ table {
     margin-top: 30px;
     margin-left: -20px;
 }
-
 
 .division-from-banner-label {                                  /* "FROM" label per each block-for-PROJECTS DETAILS */
     background-color: #26a6d1;
@@ -540,12 +528,10 @@ table {
     padding: 20px 15px 22px 15px;
 }
 
-
 .division-text-progressBar .progressBar-bar {            /* Progress Bar of each block-for-PROJECTS DETAILS */
     padding-left: 15px;
     padding-bottom: 10px;
 }
-
 
 .division-text-progressBar .progressBar-amount {        /* Percentage done */
     color: #838383;
@@ -599,7 +585,7 @@ table {
     transform: translate(1px,2px);
 }
 
-.seeDetails-button-link {                    /* Link of the button of See details */
+.seeDetails-button-link {                                      /* Link of the button of See details */
     position: absolute;
     margin-top: -15px;
     margin-left: -15px;
@@ -639,7 +625,6 @@ table {
     padding-top: 42px;
 }
 
-
 .feedback-comment-block {
     box-sizing: border-box;
     width: 48%;
@@ -650,8 +635,12 @@ table {
     background-color: white;
     border-radius: 10px;
     width: 396px;
-    margin: 90px 80px 0 100px;
+    margin: 98px 80px 0 100px;
     position: relative;
+}
+
+.main-feedback-comment div:first-of-type .comment-tooltip {
+    margin-left: 173px;
 }
 
 .comment-tooltip-header {                                                 /* Tooltip title-for-FEEDBACK */
@@ -661,7 +650,7 @@ table {
     text-align: center;
     color: #9ec02d;
     padding-top: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .comment-tooltip .comment-tooltip-text {                                   /* Tooltip text-for-FEEDBACK */
@@ -672,7 +661,7 @@ table {
     text-align: justify;
     width: 325px;
     margin: 0 auto;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .comment-tooltip .comment-tooltip-triangle {                               /* Tooltip triangular section-for-FEEDBACK */
@@ -688,12 +677,12 @@ table {
 
 }
 
-.comment-author {                                                         /* Tooltip-for-FEEDBACK */
+.comment-author {                                                         /* Tooltip author-for-FEEDBACK */
     margin-top: 34px;
     margin-left: 140px;
 }
 
-.comment-author .author-name {                                            /* Tooltip author-for-FEEDBACK */
+.comment-author .author-name {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -701,7 +690,6 @@ table {
     padding-left: 76px;
     margin-top: -43px;
 }
-
 
 
 /* FOOTER of template */
